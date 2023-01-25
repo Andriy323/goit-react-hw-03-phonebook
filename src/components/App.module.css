@@ -1,0 +1,14 @@
+.title {
+  font-size: 19px;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #477405;
+  background-color: rgb(227, 250, 236);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}

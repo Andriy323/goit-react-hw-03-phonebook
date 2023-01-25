@@ -1,0 +1,43 @@
+.form {
+  width: 300px;
+  display: block;
+}
+
+label {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+input {
+  font-size: 10px;
+  width: 100%;
+  height: 25px;
+  text-indent: 10px;
+}
+
+input:active,
+input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: 2px solid rgb(83, 150, 226);
+}
+
+.btnAdd {
+  display: block;
+  margin: 5px 10px;
+  background-color: #09d625ab;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  border-color: #2c0cbbab;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnAdd:hover {
+  background-color: #142c17ab;
+  color: aliceblue;
+}
